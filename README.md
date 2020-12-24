@@ -4,11 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Links
 
-https://app.pluralsight.com/library/courses/angular-fundamentals/table-of-contents
+[Pluralsight](https://app.pluralsight.com/library/courses/angular-fundamentals/table-of-contents)
 
-https://jcoop.io/angular-practice-exercises/
+[Practice exercises](https://jcoop.io/angular-practice-exercises/)
 
-https://raw.githubusercontent.com/jmcooper/angular-fundamentals-files/
+[Github repo](https://raw.githubusercontent.com/jmcooper/angular-fundamentals-files/)
 
 ## Development server
 
