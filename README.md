@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 [Practice exercises](https://jcoop.io/angular-practice-exercises/)
 
-[Github repo](https://raw.githubusercontent.com/jmcooper/angular-fundamentals-files/)
+[Github repo](https://github.com/jmcooper/angular-fundamentals-files/)
 
 ## Development server
 
