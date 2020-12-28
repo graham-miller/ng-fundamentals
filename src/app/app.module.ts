@@ -21,6 +21,7 @@ import { EventRouteActivator } from './events/event-details/event-route-activato
 import { EventsListResolver } from './events/events-list-resolver.service';
 import { AuthService } from './user/auth.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CollapsibleWellComponent } from './common/collapsible-well.component';
 
 @NgModule({
   imports: [
@@ -38,7 +39,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CreateEventComponent,
     Error404Component,
     CreateSessionComponent,
-    SessionListComponent
+    SessionListComponent,
+    CollapsibleWellComponent
   ],
   providers: [
     EventService,
