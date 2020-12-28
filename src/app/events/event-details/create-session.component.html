@@ -18,10 +18,10 @@
             <em *ngIf="name.duration && duration.dirty">Required</em>
             <select class="form-control" formControlName="duration">
                 <option value="">select duration...</option>
-                <option value="1">Half Hour</option>
-                <option value="2">1 Hour</option>
-                <option value="3">Half Day</option>
-                <option value="4">Full Day</option>
+                <option value="1">Half hour</option>
+                <option value="2">One Hour</option>
+                <option value="3">Half day</option>
+                <option value="4">Full day</option>
             </select>
         </div>
         <div class="form-group" [ngClass]="{'error': level.invalid && level.dirty}">
