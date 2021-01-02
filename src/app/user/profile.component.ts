@@ -36,6 +36,7 @@ export class ProfileComponent implements OnInit {
       lastName: this.lastName
     });
   }
+
   validateFirstName() {
     return this.firstName.valid || this.firstName.untouched
   }
@@ -46,12 +47,19 @@ export class ProfileComponent implements OnInit {
 
   saveProfile(formValues) {
     if (this.profileForm.valid) {
-      this.auth.updateCurrentUser(formValues.firstName, formValues.lastName);
-      this.toastr.success('Profile saved')
+      this.auth.updateCurrentUser(formValues.firstName, formValues.lastName).subscribe(() => {
+        this.toastr.success('Profile saved')
+      });
     }
   }
 
   cancel() {
     this.router.navigate(['events']);
+  }
+
+  logout() {
+    this.auth.logout().subscribe(() => {
+      this.router.navigate(['/user/login']);
+    });
   }
 }
